@@ -1,0 +1,390 @@
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:validateDebugSigning
+:app:proguardDebug SKIPPED
+:app:dexDebug SKIPPED
+:app:dexguardDebug
+:app:packageDebug SKIPPED
+:app:zipalignDebug SKIPPED
+:app:assembleDebug
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:proguardRelease SKIPPED
+:app:dexRelease SKIPPED
+:app:dexguardRelease
+DexGuard, version 7.1.12
+Reading input...
+Reading program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/dependency-cache/release] (filtered)
+Reading program apk [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/res/resources-release.ap_] (filtered)
+Reading program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/classes/release] (filtered)
+Reading program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/rs/release] (filtered)
+Reading library jar [/home/codio/android-sdk-linux/platforms/android-23/android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'org.apache.cordova.CordovaWebViewEngine'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (docs/troubleshooting.html#unknownclass)
+Ignoring unused library classes...
+  Original number of library classes:            3471
+  Final number of library classes:               543
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/home/codio/workspace/sipdemo-dexguard/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes:            31
+  Final number of program classes:               17
+Removing unused resource files...
+  Original number of resource files:             14
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Inlining metadata...
+Encrypting...
+Encrypting assets...
+  Number of encrypted asset retrievals:          0
+  Number of encrypted asset files:               0
+Inlining subroutines...
+Optimizing...
+  Number of inlined resource constants in XML:   2
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of finalized classes:                   14
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         1
+  Number of removed write-only fields:           3
+  Number of privatized fields:                   15
+  Number of specialized field types:             0
+  Number of inlined constant fields:             5
+  Number of privatized methods:                  16
+  Number of staticized methods:                  1
+  Number of finalized methods:                   38
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        2
+  Number of removed method parameters:           0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     1
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          37
+  Number of inlined unique method calls:         4
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     59
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         1
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       7
+  Number of string peephole optimizations:       2
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             5
+  Number of removed instructions:                20
+  Number of removed local variables:             1
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     19
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            19
+  Final number of program classes:               11
+Removing unused resource files...
+  Original number of resource files:             9
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Optimizing...
+  Number of inlined resource constants in XML:   0
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of removed write-only fields:           3
+  Number of privatized fields:                   0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     1
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             0
+  Number of removed instructions:                8
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            11
+  Final number of program classes:               11
+Removing unused resource files...
+  Original number of resource files:             9
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Optimizing...
+  Number of inlined resource constants in XML:   0
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of removed write-only fields:           3
+  Number of privatized fields:                   0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            11
+  Final number of program classes:               11
+Removing unused resource files...
+  Original number of resource files:             9
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Optimizing...
+  Number of inlined resource constants in XML:   0
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of removed write-only fields:           3
+  Number of privatized fields:                   0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            11
+  Final number of program classes:               11
+Removing unused resource files...
+  Original number of resource files:             9
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Optimizing...
+  Number of inlined resource constants in XML:   0
+  Number of inlined resource IDs in code:        0
+  Number of inlined resource constants in code:  0
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0
+  Number of horizontally merged classes:         0
+  Number of removed write-only fields:           3
+  Number of privatized fields:                   0
+  Number of specialized field types:             0
+  Number of inlined constant fields:             0
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        0
+  Number of removed method parameters:           0
+  Number of specialized method parameter types:  0
+  Number of specialized method return types:     0
+  Number of inlined constant parameters:         0
+  Number of inlined constant return values:      0
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     0
+  Number of arithmetic peephole optimizations:   0
+  Number of cast peephole optimizations:         0
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of Android math peephole optimizations: 0
+  Number of simplified instructions:             0
+  Number of removed instructions:                0
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes:            11
+  Final number of program classes:               11
+Removing unused resource files...
+  Original number of resource files:             9
+  Final number of resource files:                9
+Removing unused asset files...
+  Original number of asset files:                0
+  Final number of asset files:                   0
+Removing unused native library files...
+  Original number of native library files:       0
+  Final number of native library files:          0
+Obfuscating...
+Printing mapping to [/home/codio/workspace/sipdemo-dexguard/app/build/outputs/mapping/release/mapping.txt]...
+Obfuscating assets...
+Obfuscating native libraries...
+Writing output...
+Preparing output apk [/home/codio/workspace/sipdemo-dexguard/app/build/outputs/apk/app-release-unsigned.apk]
+  Copying resources from program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/dependency-cache/release] (filtered)
+  Copying resources from program apk [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/res/resources-release.ap_] (filtered)
+  Copying resources from program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program directory [/home/codio/workspace/sipdemo-dexguard/app/build/intermediates/rs/release] (filtered)
+Writing dex file:                                classes.dex
+  Number of classes:                             11
+  Number of referenced fields:                   15
+  Number of referenced methods:                  107
+:app:packageRelease SKIPPED
+:app:assembleRelease
+:app:assemble
+:app:compileLint
+:app:lint
+Ran lint on variant release: 30 issues found
+Ran lint on variant debug: 30 issues found
+Wrote HTML report to file:/home/codio/workspace/sipdemo-dexguard/app/build/outputs/lint-results.html
+Wrote XML report to /home/codio/workspace/sipdemo-dexguard/app/build/outputs/lint-results.xml
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:prepareDebugUnitTestDependencies
+:app:processDebugUnitTestJavaRes UP-TO-DATE
+:app:compileDebugUnitTestJavaWithJavac
+:app:compileDebugUnitTestSources
+:app:mockableAndroidJar
+:app:assembleDebugUnitTest
+:app:testDebugUnitTest
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareReleaseUnitTestDependencies
+:app:processReleaseUnitTestJavaRes UP-TO-DATE
+:app:compileReleaseUnitTestJavaWithJavac
+:app:compileReleaseUnitTestSources
+:app:assembleReleaseUnitTest
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 36.618 secs
+
+This build could be faster, please consider using the Gradle Daemon: http://gradle.org/docs/2.4/userguide/gradle_daemon.html
